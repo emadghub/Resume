@@ -1,0 +1,222 @@
+
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background : white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+
+.container .left
+{
+    position: relative;
+    background: black;
+    padding: 40px;
+
+}
+
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2) ;
+}
+
+.profile h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line: height 1.4em;
+}
+
+.profile h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contact{
+    padding-top: 5px;
+}
+
+.contact ul{
+    position: relative;
+}
+
+.education h5{
+    color:#03a9f4;
+    font-weight:500;
+}
+
+.education h4:nth-child(3){
+    color:#fff;
+    font-weight:600;
+}
+
+.education h4{
+    color:#fff;
+    font-weight:300;
+    letter-spacing: 0.5px;
+}
+
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact ul li .icon{
+    display: inline-block;
+    width:30px;
+    font-size:18px;
+    color:#03a9f4;
+}
+
+.contact ul li .text{
+    font-weight: 300;
+    color:white;
+}
+
+.education li{
+    margin-bottom:15px;
+}
+
+.title{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.language .text{
+    color:white;
+}
+
+.language .percent{
+    position: relative;
+    width: 100%;
+    height:6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.language .percent div{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background:orange;
+}
+
+
+.container .right
+{
+    position: relative;
+    background: rgb(38, 47, 129);
+    padding: 40px;
+    
+}
+
+.about{
+    margin-bottom: 40px;
+}
+
+.about:last-child()
+{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: white;
+    text-transform:uppercase;
+    margin-bottom: 1px;
+}
+
+p{
+    color: white;
+}
+
+.container2
+{
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    min-height: 700px;
+    background : white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.container2 .left2{
+    position: relative;
+    background: black;
+    padding: 40px;
+}
+
+.skills{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.left2 .text{
+    color:white;
+}
+
+.left2 .percent{
+    position: relative;
+    width: 100%;
+    height:6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.left2 .percent div{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background:orange;
+}
+
+.left2 li{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.container2 .right2{
+    position: relative;
+    background: rgb(19, 13, 109);
+    padding: 40px;
+}
+
+.container2 .right2 li{
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
